@@ -1,0 +1,58 @@
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/services.png);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h1
+    {
+        text-align: center;
+        color: #efefef !important;
+        padding-bottom: 10px;
+    }
+
+    h1::after 
+    {
+        content: '';
+        background-color: #efefef;
+        display: block;
+        height: 3px;
+        width: 170px;
+        margin: 20px auto 5px;
+    }
+
+    p 
+    {
+        font-size: 14px;
+        margin-top: 20px;
+        color: #ccc;
+    }
+}
+
+.services
+{
+    margin-top: 40px;
+
+    .col-md-3:hover
+    {
+        background-color: #007bff;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+}
+
+.icon 
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+

@@ -1,0 +1,125 @@
+#price
+{
+    padding: 40px 0;
+    background-color: #eee;
+
+    span 
+    {
+        font-size: 15px;
+    }
+}
+
+.single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.single-price:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+
+.price-head
+{
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+
+    h2 
+    {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+
+    p 
+    {
+        font-size: 25px;
+        color: #ccc;
+        font-weight: bold;
+        line-height: 30px;
+    }
+}
+
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    padding-right: 30px;
+
+    ul 
+    {
+        li 
+        {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 10px;
+            list-style-type: none;
+            font-size: 14px;
+        }
+
+        li:last-child 
+        {
+            border: none;
+        }
+    }
+}
+
+.fa-check-circle
+{
+    color: green;
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+.fa-times-circle
+{
+    color: red;
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+.price-button
+{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.buy-btn
+{
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 50px;
+    transition: 0.5s;
+}
+
+.buy-btn:hover 
+{
+    border: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #fff;
+}

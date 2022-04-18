@@ -1,0 +1,160 @@
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+
+    .btn 
+    {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.about-content
+{
+    padding-top: 20px;
+}
+
+.skills-bar
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress 
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+.progress-bar
+{
+    border-radius: 16px;
+    width: 0%;
+}
+
+
+
+.html5 
+{
+    animation: html5 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.css
+{
+    animation: css 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.bootstrap
+{
+    animation: bootstrap 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.javascript
+{
+    animation: javascript 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.adobe-photoshop
+{
+    animation: adobe-photoshop 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.adobe-illustrator
+{
+    animation: adobe-illustrator 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.adobe-xd
+{
+    animation: adobe-xd 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.wordpress
+{
+    animation: wordpress 3s linear forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes html5 
+{
+    100%
+    {
+        width: 90%;
+    }
+}
+
+@keyframes css 
+{
+    100%
+    {
+        width: 90%;
+    }
+}
+
+@keyframes javascript
+{
+    100%
+    {
+        width: 70%;
+    }
+}
+
+@keyframes bootstrap
+{
+    100%
+    {
+        width: 85%;
+    }
+}
+
+@keyframes adobe-illustrator 
+{
+    100%
+    {
+        width: 80%;
+    }
+}
+
+@keyframes adobe-photoshop 
+{
+    100%
+    {
+        width: 75%;
+    }
+}
+
+@keyframes adobe-xd 
+{
+    100%
+    {
+        width: 80%;
+    }
+}
+
+@keyframes wordpress 
+{
+    100%
+    {
+        width: 75%;
+    }
+}
+
+
+

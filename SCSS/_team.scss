@@ -1,0 +1,97 @@
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+
+    .fab
+    {
+        height: 25px;
+        width: 25px;
+        color: #007bff;
+        background-color: #fff;
+        border-radius: 50%; 
+        padding: 4px; 
+    }
+}
+
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+
+h1::after
+{
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 180px;
+    margin: 20px auto 5px;
+}
+
+.profile-pic
+{
+    margin-top: 25px;
+
+    h2 
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 15px;
+        color: #007bff !important;
+    }
+
+    h3 
+    {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+}
+
+.profile-pic .img-box
+{
+   opacity: 1;
+   display: block;
+   position: relative;
+}
+
+.profile-pic .img-box img 
+{
+    filter: grayscale(1);
+    width: 250px;
+    height: 250px;
+}
+
+.profile-pic .img-box img:hover 
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.img-box ul 
+{
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 2;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+
+    li 
+    {
+        padding: 5px;
+        display: inline-block;
+        transition: 0.5s;
+    }
+}
+
+.img-box:hover ul 
+{
+    opacity: 1;
+}
